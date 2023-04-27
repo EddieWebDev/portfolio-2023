@@ -133,7 +133,7 @@ export const About = () => {
       <p className="mb-6 mt-10 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
         My resume
       </p>
-      <div className="flex items-center justify-center gap-12">
+      <div className="flex flex-wrap items-center justify-center gap-12">
         <a
           href="Eddie-Andersson-Resume-English.pdf"
           download="Eddie-Andersson-Resume-English.pdf"

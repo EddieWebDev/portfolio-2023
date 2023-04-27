@@ -14,9 +14,14 @@ export const MainContent = () => {
             alt="rocketman"
             className="mb-6 w-1/2"
           />
-          <h3 className="text-center text-3xl text-slate-900 dark:text-white">
-            Web Shop JS
-          </h3>
+          <a
+            href="https://github.com/EddieWebDev/eddie-exam-shop"
+            target="_blank"
+          >
+            <h3 className="text-center text-3xl text-slate-900 dark:text-white">
+              Web Shop JS
+            </h3>
+          </a>
           <div className="mt-2 hidden text-center text-slate-400 dark:text-white sm:block">
             <ul className="flex gap-1 text-sm">
               <li className="rounded-xl border border-primary p-1 hover:bg-primary">
@@ -63,9 +68,14 @@ export const MainContent = () => {
             alt="Adventurer"
             className="mb-6 w-1/2"
           />
-          <h3 className="text-center text-3xl text-slate-900 dark:text-white">
-            Portfolio
-          </h3>
+          <a
+            href="https://github.com/EddieWebDev/portfolio-2023"
+            target="_blank"
+          >
+            <h3 className="text-center text-3xl text-slate-900 dark:text-white">
+              Portfolio
+            </h3>
+          </a>
           <div className="mt-2 hidden text-center text-slate-400 dark:text-white sm:block">
             <ul className="flex gap-1 text-sm">
               <li className="rounded-xl border border-primary p-1 hover:bg-primary">
@@ -106,9 +116,11 @@ export const MainContent = () => {
             alt="Infinity"
             className="mb-6 w-1/2"
           />
-          <h3 className="text-center text-3xl text-slate-900 dark:text-white">
-            Web Shop PHP
-          </h3>
+          <a href="https://github.com/EddieWebDev/WCDota" target="_blank">
+            <h3 className="text-center text-3xl text-slate-900 dark:text-white">
+              Web Shop PHP
+            </h3>
+          </a>
           <div className="mt-2 hidden text-center text-slate-400 dark:text-white sm:block">
             <ul className="flex gap-1 text-sm">
               <li className="rounded-xl border border-primary p-1 hover:bg-primary">
