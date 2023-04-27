@@ -8,17 +8,17 @@ export const About = () => {
         About me
       </h2>
       <p className="text-center text-xl lg:text-left">
-        I'm a fullstack web developer located in Stockholm Sweden. I'm finishing
-        my two year Higher Vocational Education program, as a web developer with
-        focus on e-commerce, in May this year. Since October 2022 I've been
-        doing my internship as a front end developer at Stryda (former G-Loot),
-        where I've learned alot about working with real projects and best
-        practices. I have a background in service professions such as waiter and
-        furniture salesman but has since my bachelors degree in business
-        economics 2017 worked more with administrative economics. I'm a curious
-        person that love to learn new things, solve complex problems, be
-        creative and really feel that I'm developing. I would define my self as
-        humble, focused, social and problem solver.
+        I'm a fullstack web developer located in Stockholm, Sweden. I'm
+        finishing my two-year Higher Vocational Education program, as a web
+        developer with a focus on e-commerce, in May this year. Since October
+        2022, I've been doing my internship as a front end developer at Stryda
+        (former G-Loot), where I've learned a lot about working with real
+        projects and best practices. I have a background in service professions
+        such as waiter and furniture salesman but has, since my bachelors degree
+        in business economics 2017, worked more with administrative economics.
+        I'm a curious person that loves to learn new things, solve complex
+        problems, be creative and really feel that I'm developing. I would
+        define myself as humble, focused, social and problem-solver.
       </p>
       <p className="mb-6 mt-10 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
         Some of my skills
@@ -129,6 +129,27 @@ export const About = () => {
             </li>
           </a>
         </ul>
+      </div>
+      <p className="mb-6 mt-10 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        My resume
+      </p>
+      <div className="flex items-center justify-center gap-12">
+        <a
+          href="Eddie-Andersson-Resume-English.pdf"
+          download="Eddie-Andersson-Resume-English.pdf"
+        >
+          <button className="w-48 rounded-xl border border-solid border-slate-900 bg-primary p-3 text-white hover:bg-secondary active:bg-tertiary dark:border-none">
+            Download my resume in english
+          </button>
+        </a>
+        <a
+          href="Eddie-Andersson-CV-svenska.pdf"
+          download="Eddie-Andersson-CV-svenska.pdf"
+        >
+          <button className="w-48 rounded-xl border border-solid border-slate-900 bg-primary p-3 text-white hover:bg-secondary active:bg-tertiary dark:border-none">
+            Ladda ned mitt CV på svenska
+          </button>
+        </a>
       </div>
     </section>
   );
