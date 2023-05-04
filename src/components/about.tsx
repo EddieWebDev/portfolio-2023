@@ -135,16 +135,16 @@ export const About = () => {
       </p>
       <div className="flex flex-wrap items-center justify-center gap-12">
         <a
-          href="Eddie-Andersson-Resume-English.pdf"
-          download="Eddie-Andersson-Resume-English.pdf"
+          href="Eddie-Andersson-Resume.pdf"
+          download="Eddie-Andersson-Resume.pdf"
         >
           <button className="w-48 rounded-xl border border-solid border-slate-900 bg-primary p-3 text-white hover:bg-secondary active:bg-tertiary dark:border-none">
             Download my resume in english
           </button>
         </a>
         <a
-          href="Eddie-Andersson-CV-svenska.pdf"
-          download="Eddie-Andersson-CV-svenska.pdf"
+          href="Eddie-Andersson-CV.pdf"
+          download="Eddie-Andersson-CV.pdf"
         >
           <button className="w-48 rounded-xl border border-solid border-slate-900 bg-primary p-3 text-white hover:bg-secondary active:bg-tertiary dark:border-none">
             Ladda ned mitt CV på svenska

@@ -9,15 +9,12 @@ export const MainContent = () => {
       </h2>
       <ul className="mx-auto my-12 flex list-none flex-col items-center gap-8 lg:flex-row">
         <li className="dark:border-grey-100 flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:bg-black sm:w-5/6">
-          <img
-            src="/img/rocketman.png"
-            alt="rocketman"
-            className="mb-6 w-1/2"
-          />
-          <a
-            href="https://github.com/EddieWebDev/eddie-exam-shop"
-            target="_blank"
-          >
+          <a href="https://eddiewebshop.com" target="_blank">
+            <img
+              src="/img/fruitcity2.png"
+              alt="eddiewebshop"
+              className="my-3 lg:max-h-32"
+            />
             <h3 className="text-center text-3xl text-slate-900 dark:text-white">
               Web Shop JS
             </h3>
@@ -63,15 +60,15 @@ export const MainContent = () => {
         </li>
 
         <li className="dark:border-grey-100 flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:bg-black sm:w-5/6">
-          <img
-            src="/img/rocketride.png"
-            alt="Adventurer"
-            className="mb-6 w-1/2"
-          />
           <a
             href="https://github.com/EddieWebDev/portfolio-2023"
             target="_blank"
           >
+            <img
+              src="/img/rocketride.png"
+              alt="Adventurer"
+              className="mb-6 lg:max-h-32"
+            />
             <h3 className="text-center text-3xl text-slate-900 dark:text-white">
               Portfolio
             </h3>
@@ -111,12 +108,12 @@ export const MainContent = () => {
         </li>
 
         <li className="dark:border-grey-100 flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:bg-black sm:w-5/6">
-          <img
-            src="/img/rocketlaunch.png"
-            alt="Infinity"
-            className="mb-6 w-1/2"
-          />
           <a href="https://github.com/EddieWebDev/WCDota" target="_blank">
+            <img
+              src="/img/rocketlaunch.png"
+              alt="Infinity"
+              className="mb-6 lg:max-h-32"
+            />
             <h3 className="text-center text-3xl text-slate-900 dark:text-white">
               Web Shop PHP
             </h3>
